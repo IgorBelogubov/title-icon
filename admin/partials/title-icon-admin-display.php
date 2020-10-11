@@ -97,14 +97,14 @@
             </label>
 			<span><?php esc_attr_e('Left', $this->title_icon);?></span>
             <input type="radio" 
-				   <?php if ($position == "left") { ?> checked <? } ?>
+				   <?php if ($position == "left") { ?> checked <?php } ?>
                    class="regular-text" id="<?php echo $this->title_icon;?>-position"
                    name="<?php echo $this->title_icon;?>[position]"
                    value="left"
             />
 			<span><?php esc_attr_e('Right', $this->title_icon);?></span>
 			<input type="radio"
-				   <?php if ($position == "right") { ?> checked <? } ?>
+				   <?php if ($position == "right") { ?> checked <?php } ?>
                    class="regular-text" id="<?php echo $this->title_icon;?>-position"
                    name="<?php echo $this->title_icon;?>[position]"
                    value="right"
